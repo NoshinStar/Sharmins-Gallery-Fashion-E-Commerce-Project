@@ -106,5 +106,3 @@ No copyright infringement is intended.
 Do not use the included images for commercial distribution.
 
 ---
-
-Would you like me to also **write installation instructions with npm & live-server** (so it can be run like a real dev project), or keep it as a simple **open in browser** HTML project?
