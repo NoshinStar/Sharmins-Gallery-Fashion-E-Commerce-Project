@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharmins Gallery - Luxury Pakistani Fashion</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="brand">
+                <i class='bx bxs-diamond'></i>
+                <span>Sharmins Gallery</span>
+            </a>
+
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#collections" class="nav-link">Collections</a></li>
+                <li><a href="#products" class="nav-link">Shop</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="icon-btn search-btn">
+                    <i class='bx bx-search'></i>
+                </button>
+                <button class="icon-btn cart-btn">
+                    <i class='bx bx-shopping-bag'></i>
+                    <span class="badge">0</span>
+                </button>
+                <button class="account-btn">
+                    <i class='bx bx-user'></i>
+                    <span>Account</span>
+            </div>
+
+            <button class="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-swiper swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="hero-content">
+                        <div class="hero-text">
+                            <span class="hero-tag">New Collection 2025</span>
+                            <h1 class="hero-title">Elegance<br>Redefined</h1>
+                            <p class="hero-description">Discover our exquisite range of hand-embroidered luxury
+                                Pakistani fashion, where tradition meets contemporary elegance.</p>
+                            <div class="hero-buttons">
+                                <a href="#products" class="btn btn-primary">Explore Collection</a>
+                                <a href="#about" class="btn btn-outline">Our Story</a>
+                            </div>
+                        </div>
+                        <div class="hero-image">
+                            <div class="image-decoration"></div>
+                            <img src="image/img2.png" alt="Luxury Collection">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="hero-content">
+                        <div class="hero-text">
+                            <span class="hero-tag">Ready to Wear</span>
+                            <h1 class="hero-title">Effortless<br>Sophistication</h1>
+                            <p class="hero-description">Premium quality stitched suits designed for the modern woman who
+                                values both style and comfort.</p>
+                            <div class="hero-buttons">
+                                <a href="#products" class="btn btn-primary">Shop Now</a>
+                                <a href="#collections" class="btn btn-outline">View Collections</a>
+                            </div>
+                        </div>
+                        <div class="hero-image">
+                            <div class="image-decoration"></div>
+                            <img src="image/img3.jpg" alt="Ready to Wear">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="hero-content">
+                        <div class="hero-text">
+                            <span class="hero-tag">Unstitched Fabrics</span>
+                            <h1 class="hero-title">Craft Your<br>Masterpiece</h1>
+                            <p class="hero-description">Premium lawn and silk fabrics for custom tailoring. Create
+                                something uniquely yours.</p>
+                            <div class="hero-buttons">
+                                <a href="#products" class="btn btn-primary">Browse Fabrics</a>
+                                <a href="#contact" class="btn btn-outline">Custom Orders</a>
+                            </div>
+                        </div>
+                        <div class="hero-image">
+                            <div class="image-decoration"></div>
+                            <img src="image/img1.jpg" alt="Unstitched Fabrics">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class='bx bx-package'></i>
+                    <h3>Free Shipping</h3>
+                    <p>On orders over PKR 10,000</p>
+                </div>
+                <div class="feature-card">
+                    <i class='bx bx-shield-alt-2'></i>
+                    <h3>Secure Payment</h3>
+                    <p>100% secure transactions</p>
+                </div>
+                <div class="feature-card">
+                    <i class='bx bx-undo'></i>
+                    <h3>Easy Returns</h3>
+                    <p>14-day return policy</p>
+                </div>
+                <div class="feature-card">
+                    <i class='bx bx-support'></i>
+                    <h3>24/7 Support</h3>
+                    <p>Dedicated customer service</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collections -->
+    <section class="collections" id="collections">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-title">
+                    <span class="section-tag">Explore</span>
+                    <h2>Featured Collections</h2>
+                </div>
+                <a href="#" class="btn btn-text">View All <i class='bx bx-right-arrow-alt'></i></a>
+            </div>
+
+            <div class="collections-grid">
+                <div class="collection-card">
+                    <div class="collection-image">
+                        <img src="image/img4.jpg" alt="Embroidered">
+                        <div class="collection-overlay">
+                            <a href="#" class="overlay-btn">Explore</a>
+                        </div>
+                    </div>
+                    <div class="collection-info">
+                        <h3>Embroidered Luxe</h3>
+                        <p>Hand-crafted elegance</p>
+                    </div>
+                </div>
+
+                <div class="collection-card">
+                    <div class="collection-image">
+                        <img src="image/img6.jpg" alt="Unstitched">
+                        <div class="collection-overlay">
+                            <a href="#" class="overlay-btn">Explore</a>
+                        </div>
+                    </div>
+                    <div class="collection-info">
+                        <h3>Unstitched Essentials</h3>
+                        <p>Premium fabrics</p>
+                    </div>
+                </div>
+
+                <div class="collection-card">
+                    <div class="collection-image">
+                        <img src="image/img5.jpg" alt="Ready to Wear">
+                        <div class="collection-overlay">
+                            <a href="#" class="overlay-btn">Explore</a>
+                        </div>
+                    </div>
+                    <div class="collection-info">
+                        <h3>Ready to Wear</h3>
+                        <p>Everyday elegance</p>
+                    </div>
+                </div>
+
+                <div class="collection-card">
+                    <div class="collection-image">
+                        <img src="image/img7.jpg" alt="Bridal">
+                        <div class="collection-overlay">
+                            <a href="#" class="overlay-btn">Explore</a>
+                        </div>
+                    </div>
+                    <div class="collection-info">
+                        <h3>Bridal Couture</h3>
+                        <p>Your special day</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-title">
+                    <span class="section-tag">Shop</span>
+                    <h2>New Arrivals</h2>
+                </div>
+                <div class="filter-tabs">
+                    <button class="tab-btn active" data-filter="all">All</button>
+                    <button class="tab-btn" data-filter="luxury">Luxury</button>
+                    <button class="tab-btn" data-filter="casual">Casual</button>
+                    <button class="tab-btn" data-filter="formal">Formal</button>
+                </div>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card" data-category="luxury">
+                    <div class="product-image">
+                        <img src="image/img9.jpg" alt="Embroidered Lawn Suit">
+                        <span class="product-badge">New</span>
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn" aria-label="Add to Wishlist">
+                                <i class='bx bx-heart'></i>
+                            </button>
+                            <button class="action-btn quickview-btn" aria-label="Quick View">
+                                <i class='bx bx-show'></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">3-Piece Lawn</span>
+                        <h3 class="product-title">Embroidered Lawn Suit</h3>
+                        <div class="product-rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half'></i>
+                            <span>(128)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price-current">PKR 7,999</span>
+                            <span class="price-original">PKR 8,499</span>
+                        </div>
+                        <button class="btn btn-primary btn-block add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="casual">
+                    <div class="product-image">
+                        <img src="image/img10.jpg" alt="Digital Print Kurta Set">
+                        <span class="product-badge">Exclusive</span>
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn" aria-label="Add to Wishlist">
+                                <i class='bx bx-heart'></i>
+                            </button>
+                            <button class="action-btn quickview-btn" aria-label="Quick View">
+                                <i class='bx bx-show'></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Ready-to-Wear</span>
+                        <h3 class="product-title">Digital Print Kurta Set</h3>
+                        <div class="product-rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star'></i>
+                            <span>(89)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price-current">PKR 5,999</span>
+                        </div>
+                        <button class="btn btn-primary btn-block add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="luxury">
+                    <div class="product-image">
+                        <img src="image/img11.jpg" alt="Velvet Embroidered Dress">
+                        <span class="product-badge sale">-15%</span>
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn" aria-label="Add to Wishlist">
+                                <i class='bx bx-heart'></i>
+                            </button>
+                            <button class="action-btn quickview-btn" aria-label="Quick View">
+                                <i class='bx bx-show'></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Velvet Luxury</span>
+                        <h3 class="product-title">Velvet Embroidered Dress</h3>
+                        <div class="product-rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <span>(245)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price-current">PKR 10,999</span>
+                            <span class="price-original">PKR 12,999</span>
+                        </div>
+                        <button class="btn btn-primary btn-block add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="luxury">
+                    <div class="product-image">
+                        <img src="image/img12.jpg" alt="Pure Raw Silk Fabric">
+                        <span class="product-badge">Limited Stock</span>
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn" aria-label="Add to Wishlist">
+                                <i class='bx bx-heart'></i>
+                            </button>
+                            <button class="action-btn quickview-btn" aria-label="Quick View">
+                                <i class='bx bx-show'></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Unstitched Silk</span>
+                        <h3 class="product-title">Pure Raw Silk Fabric</h3>
+                        <div class="product-rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half'></i>
+                            <span>(156)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price-current">PKR 15,999</span>
+                        </div>
+                        <button class="btn btn-primary btn-block add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="casual">
+                    <div class="product-image">
+                        <img src="image/img13.jpg" alt="Solid Silk Blend Kurta">
+                        <span class="product-badge">New</span>
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn" aria-label="Add to Wishlist">
+                                <i class='bx bx-heart'></i>
+                            </button>
+                            <button class="action-btn quickview-btn" aria-label="Quick View">
+                                <i class='bx bx-show'></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Silk Blend Kurta</span>
+                        <h3 class="product-title">Solid Silk Tunic Set</h3>
+                        <div class="product-rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half'></i>
+                            <i class='bx bx-star'></i>
+                            <span>(95)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price-current">PKR 8,499</span>
+                        </div>
+                        <button class="btn btn-primary btn-block add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="casual">
+                    <div class="product-image">
+                        <img src="image/img14.jpg" alt="Floral Printed Long Kurta">
+                        <span class="product-badge">Exclusive</span>
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn" aria-label="Add to Wishlist">
+                                <i class='bx bx-heart'></i>
+                            </button>
+                            <button class="action-btn quickview-btn" aria-label="Quick View">
+                                <i class='bx bx-show'></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Ready-to-Wear</span>
+                        <h3 class="product-title">Floral Printed Long Kurta</h3>
+                        <div class="product-rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star'></i>
+                            <span>(112)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price-current">PKR 6,250</span>
+                        </div>
+                        <button class="btn btn-primary btn-block add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="casual">
+                    <div class="product-image">
+                        <img src="image/img15.jpg" alt="Green Printed Cotton Angrakha">
+                        <span class="product-badge">New</span>
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn" aria-label="Add to Wishlist">
+                                <i class='bx bx-heart'></i>
+                            </button>
+                            <button class="action-btn quickview-btn" aria-label="Quick View">
+                                <i class='bx bx-show'></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">3-Piece Lawn</span>
+                        <h3 class="product-title">Green Printed Cotton Suit</h3>
+                        <div class="product-rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half'></i>
+                            <i class='bx bx-star'></i>
+                            <span>(15)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price-current">PKR 5,800</span>
+                        </div>
+                        <button class="btn btn-primary btn-block add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="luxury">
+                    <div class="product-image">
+                        <img src="image/img16.jpg" alt="Embroidered Velvet Shawl Suit">
+                        <span class="product-badge sale">-15%</span>
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn" aria-label="Add to Wishlist">
+                                <i class='bx bx-heart'></i>
+                            </button>
+                            <button class="action-btn quickview-btn" aria-label="Quick View">
+                                <i class='bx bx-show'></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Winter Formal</span>
+                        <h3 class="product-title">Embroidered Velvet Shawl Suit</h3>
+                        <div class="product-rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <span>(310)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price-current">PKR 25,999</span>
+                        </div>
+                        <button class="btn btn-primary btn-block add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="formal">
+                    <div class="product-image">
+                        <img src="image/img17.jpg" alt="Embroidered Maroon Anarkali">
+                        <span class="product-badge">Top Rated</span>
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn" aria-label="Add to Wishlist">
+                                <i class='bx bx-heart'></i>
+                            </button>
+                            <button class="action-btn quickview-btn" aria-label="Quick View">
+                                <i class='bx bx-show'></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Bridal/Formal Wear</span>
+                        <h3 class="product-title">Embroidered Maroon Anarkali Suit</h3>
+                        <div class="product-rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <span>(190)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price-current">PKR 35,500</span>
+                        </div>
+                        <button class="btn btn-primary btn-block add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="formal">
+                    <div class="product-image">
+                        <img src="image/img19.jpg" alt="Baby Pink Embellished Gown">
+                        <span class="product-badge">Exclusive</span>
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn" aria-label="Add to Wishlist">
+                                <i class='bx bx-heart'></i>
+                            </button>
+                            <button class="action-btn quickview-btn" aria-label="Quick View">
+                                <i class='bx bx-show'></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Designer Wear</span>
+                        <h3 class="product-title">Baby Pink Embellished Gown</h3>
+                        <div class="product-rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half'></i>
+                            <span>(85)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price-current">PKR 42,000</span>
+                        </div>
+                        <button class="btn btn-primary btn-block add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="formal">
+                    <div class="product-image">
+                        <img src="image/img18.jpg" alt="Heavy Tilla Work Sharara Suit">
+                        <span class="product-badge">Limited Stock</span>
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn" aria-label="Add to Wishlist">
+                                <i class='bx bx-heart'></i>
+                            </button>
+                            <button class="action-btn quickview-btn" aria-label="Quick View">
+                                <i class='bx bx-show'></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Wedding Collection</span>
+                        <h3 class="product-title">Heavy Tilla Work Sharara Set</h3>
+                        <div class="product-rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <span>(215)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price-current">PKR 31,499</span>
+                        </div>
+                        <button class="btn btn-primary btn-block add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="luxury formal">
+                    <div class="product-image">
+                        <img src="image/img20.jpg" alt="Greenish Heavily Worked Long Suit">
+                        <span class="product-badge sale">-10% OFF</span>
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn" aria-label="Add to Wishlist">
+                                <i class='bx bx-heart'></i>
+                            </button>
+                            <button class="action-btn quickview-btn" aria-label="Quick View">
+                                <i class='bx bx-show'></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Ready-to-Wear Formal</span>
+                        <h3 class="product-title">Greenish Heavily Worked Long Suit</h3>
+                        <div class="product-rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half'></i>
+                            <span>(140)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price-current">PKR 18,700</span>
+                            <span class="price-original">PKR 20,777</span>
+                        </div>
+                        <button class="btn btn-primary btn-block add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-footer">
+                <button class="btn btn-primary">View All Products</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="image/img8.jpg" alt="About Sharmins Gallery">
+                    <div class="about-decoration"></div>
+                </div>
+                <div class="about-text">
+                    <span class="section-tag">Our Story</span>
+                    <h2>Celebrating Pakistani Heritage</h2>
+                    <p>At Sharmins Gallery, we are passionate about preserving and showcasing the rich textile heritage
+                        of Pakistan. For over a decade, we have been curating exceptional collections that blend
+                        traditional craftsmanship with contemporary design sensibilities.</p>
+                    <p>Every piece in our collection tells a story of skilled artisans, premium fabrics, and meticulous
+                        attention to detail. From seasonal lawn collections to luxury bridal wear, we bring you the
+                        finest Pakistani fashion.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>20+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>10000+</h3>
+                            <p>Happy Customers</p>
+                        </div>
+                        <div class="stat">
+                            <h3>80+</h3>
+                            <p>Master Artisans</p>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <div class="testimonials-grid">
+        <div class="testimonial-card">
+            <div class="testimonial-rating">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+            </div>
+            <p class="testimonial-text">"The bridal dress I ordered exceeded all expectations. The embroidery work was
+                absolutely stunning and the fabric quality was exceptional. Made my special day truly memorable!"</p>
+            <div class="testimonial-author">
+                <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Customer">
+                <div>
+                    <h4>Ayesha Khan</h4>
+                    <span>Verified Buyer</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="testimonial-rating">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+            </div>
+            <p class="testimonial-text">"Excellent quality unstitched lawn suits with vibrant prints. The customer
+                service was outstanding and delivery was prompt. Highly recommend Sharmins Gallery!"</p>
+            <div class="testimonial-author">
+                <img src="https://randomuser.me/api/portraits/women/69.jpg" alt="Customer">
+                <div>
+                    <h4>Fatima Zafar</h4>
+                    <span>Verified Buyer</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="testimonial-rating">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half'></i>
+            </div>
+            <p class="testimonial-text">"My go-to place for ready-to-wear formal outfits. The stitching is impeccable
+                and fits perfectly. Great selection and reasonable prices!"</p>
+            <div class="testimonial-author">
+                <img src="https://randomuser.me/api/portraits/women/70.jpg" alt="Customer">
+                <div>
+                    <h4>Sara Ahmed</h4>
+                    <span>Verified Buyer</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Newsletter -->
+    <section class="newsletter" id="contact">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-text">
+                    <h2>Stay Updated</h2>
+                    <p>Subscribe to our newsletter for exclusive offers, new arrivals, and fashion tips.</p>
+                </div>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <a href="#" class="footer-brand">
+                        <i class='bx bxs-diamond'></i>
+                        <span>Sharmins Gallery</span>
+                    </a>
+                    <p>Premium Pakistani fashion delivering elegance and quality since 2004.</p>
+                    <div class="social-links">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-instagram'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-pinterest'></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#collections">Collections</a></li>
+                        <li><a href="#products">New Arrivals</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Customer Service</h3>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns & Exchange</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul class="contact-info">
+                        <li><i class='bx bx-map'></i> Defence Commercial Area, Lahore</li>
+                        <li><i class='bx bx-phone'></i> +92 000 1234567</li>
+                        <li><i class='bx bx-envelope'></i> info@sharminsgallery.com</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Sharmins Gallery. All rights reserved.</p>
+                <div class="payment-methods">
+                    <i class='bx bxl-visa'></i>
+                    <i class='bx bxl-mastercard'></i>
+                    <i class='bx bx-credit-card'></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
